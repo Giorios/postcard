@@ -6,7 +6,7 @@ function onChange() {
   document.getElementById("state-heading").innerHTML = text; 
   
   var theme = e.options[e.selectedIndex].value;
-  document.getElementById("postcard").style.backgroundImage = "url(img/ak@2x.jpg)";
+  document.getElementById("postcard").style.backgroundImage = "url(img/"+ theme + "@2x.jpg)";
 }
 e.onchange = onChange;
 onChange();
